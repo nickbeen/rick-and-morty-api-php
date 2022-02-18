@@ -1,0 +1,14 @@
+# Automatically normalize line endings
+*                  text=auto
+
+# Explicitly set diffs
+*.md               diff=markdown
+*.php              diff=php
+
+# Ignore all test and documentation
+/.editorconfig     export-ignore
+/.gitattributes    export-ignore
+/.github           export-ignore
+/.gitignore        export-ignore
+/phpunit.xml.dist  export-ignore
+/tests             export-ignore

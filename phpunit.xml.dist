@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+	beStrictAboutOutputDuringTests="true"
+	bootstrap="vendor/autoload.php"
+	colors="true"
+	executionOrder="random"
+	failOnEmptyTestSuite="true"
+	failOnRisky="true"
+	failOnWarning="true"
+	verbose="true">
+	<php>
+		<ini name="display_errors" value="On"/>
+		<ini name="error_reporting" value="-1"/>
+	</php>
+	<testsuites>
+		<testsuite name="tests">
+			<directory>tests</directory>
+		</testsuite>
+	</testsuites>
+</phpunit>
