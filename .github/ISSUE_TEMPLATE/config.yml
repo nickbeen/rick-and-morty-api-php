@@ -1,1 +1,5 @@
 blank_issues_enabled: false
+contact_links:
+  - name: Help, questions and ideas
+    url: https://github.com/nickbeen/rick-and-morty-api-php/discussions
+    about: "Please start a new discussion"
