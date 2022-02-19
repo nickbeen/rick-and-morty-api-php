@@ -1,4 +1,4 @@
-The Rick and Morty API PHP Client
+# The Rick and Morty API PHP Client
 
 [![Latest Stable Version](http://poser.pugx.org/phpunit/phpunit/v)](https://packagist.org/packages/nickbeen/rick-and-morty-api-php)
 [![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)](https://packagist.org/packages/nickbeen/rick-and-morty-api-php)
