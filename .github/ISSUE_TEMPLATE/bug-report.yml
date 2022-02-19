@@ -1,0 +1,48 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - nickbeen
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: library-version
+    attributes:
+      label: Library version
+      description: "What version of the library do you have installed?"
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: php-version
+    attributes:
+      label: PHP version
+      description: "What version of PHP do you have installed?"
+      placeholder: "8.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug description
+      description: What went wrong? What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: sample-code
+    attributes:
+      label: Sample code
+      description: If applicable, provide relevant PHP code.
+      render: php
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow the [Code of Conduct](https://github.com/nickbeen/rick-and-morty-api-php/.github/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow the Code of Conduct
+          required: true
