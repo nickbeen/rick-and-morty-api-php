@@ -1,10 +1,12 @@
 # The Rick and Morty API PHP Client
 
-[![Latest Stable Version](http://poser.pugx.org/phpunit/phpunit/v)](https://packagist.org/packages/nickbeen/rick-and-morty-api-php)
-[![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)](https://packagist.org/packages/nickbeen/rick-and-morty-api-php)
-[![License](http://poser.pugx.org/phpunit/phpunit/license)](https://packagist.org/packages/nickbeen/rick-and-morty-api-php)
+[![Latest version](https://img.shields.io/packagist/v/nickbeen/rick-and-morty-api-php)](https://packagist.org/packages/nickbeen/rick-and-morty-api-php)
+[![Build status](https://img.shields.io/github/workflow/status/nickbeen/rick-and-morty-api-php/Run%20tests)](https://packagist.org/packages/nickbeen/rick-and-morty-api-php)
+[![Total downloads](https://img.shields.io/packagist/dt/nickbeen/rick-and-morty-api-php)](https://packagist.org/packages/nickbeen/rick-and-morty-api-php)
+[![PHP Version](https://img.shields.io/packagist/php-v/nickbeen/rick-and-morty-api-php)](https://packagist.org/packages/nickbeen/rick-and-morty-api-php)
+[![License](https://img.shields.io/packagist/l/nickbeen/rick-and-morty-api-php)](https://packagist.org/packages/nickbeen/rick-and-morty-api-php)
 
-An API wrapper written in PHP for the Rick and Morty API at [https://rickandmortyapi.com]().
+An API wrapper written in PHP for the Rick and Morty API at <https://rickandmortyapi.com>.
 
 Get all the information about characters, episodes and locations of Rick and Morty with this PHP client without messing around with Curl calls and JSON responses. This library does not return the same JSON provided by the API, but wraps everything in convenient PHP class objects. The Rick and Morty API is made by [Axel Fuhrmann](https://github.com/afuh).
 
