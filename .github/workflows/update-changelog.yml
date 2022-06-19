@@ -1,0 +1,9 @@
+name: Update changelog
+
+on:
+  release:
+    types: [released]
+  
+jobs:
+  update:
+    uses: nickbeen/.github/.github/workflows/update-changelog.yml@main
