@@ -1,6 +1,9 @@
 name: Run tests
 
-on: [pull_request, push]
+on:
+  pull_request:
+    branches:
+      - ${{ github.event.release.target_commitish }}
 
 jobs:
   run-tests:
