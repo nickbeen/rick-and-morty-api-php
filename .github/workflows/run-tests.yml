@@ -2,8 +2,8 @@ name: Run tests
 
 on:
   pull_request:
-  schedule:
-    - cron: '0 0 * * 0'
+    branches:
+      - ${{ github.event.release.target_commitish }}
 
 jobs:
   run-tests:
