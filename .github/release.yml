@@ -1,0 +1,42 @@
+# Based on https://keepachangelog.com/en/1.0.0/
+
+changelog:
+
+  exclude:
+    authors:
+      - dependabot[bot]
+      - github-actions[bot]
+
+  categories:
+
+    # For new features
+    - title: Added
+      labels:
+        - added
+        - enhancement # default label
+
+    # For changes in existing functionality
+    - title: Changed
+      labels:
+        - changed
+
+    # For soon-to-be removed features
+    - title: Deprecated
+      labels:
+        - deprecated
+
+    # For now removed features
+    - title: Removed
+      labels:
+        - removed
+ 
+    # For any bug fixes
+    - title: Fixed
+      labels:
+        - bug # default label
+        - fixed
+
+    # In case of vulnerabilities
+    - title: Security
+      labels:
+        - security
