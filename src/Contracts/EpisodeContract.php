@@ -20,7 +20,7 @@ interface EpisodeContract
 	/**
 	 * Filter by the given episode code.
 	 *
-	 * @param int $episode The code of the episode
+	 * @param string $episode The code of the episode
 	 * @return Episode
 	 */
 
