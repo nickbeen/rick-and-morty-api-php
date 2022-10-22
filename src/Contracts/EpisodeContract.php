@@ -24,7 +24,7 @@ interface EpisodeContract
 	 * @return Episode
 	 */
 
-	public function withEpisode(int $episode): Episode;
+	public function withEpisode(string $episode): Episode;
 	/**
 	 * Filter by the given name.
 	 *
