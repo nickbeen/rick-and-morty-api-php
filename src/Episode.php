@@ -6,7 +6,7 @@ use NickBeen\RickAndMortyPhpApi\Contracts\EpisodeContract;
 
 class Episode extends Base implements EpisodeContract
 {
-	public function withEpisode(int $episode): Episode
+	public function withEpisode(string $episode): Episode
 	{
 		$this->filter['episode'] = $episode;
 		return $this;
