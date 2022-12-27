@@ -1,7 +1,7 @@
 # The Rick and Morty API PHP Client
 
 [![Latest version](https://img.shields.io/packagist/v/nickbeen/rick-and-morty-api-php)](https://packagist.org/packages/nickbeen/rick-and-morty-api-php)
-[![Build status](https://img.shields.io/github/workflow/status/nickbeen/rick-and-morty-api-php/Run%20tests)](https://packagist.org/packages/nickbeen/rick-and-morty-api-php)
+[![Build status](https://img.shields.io/github/actions/workflow/status/nickbeen/rick-and-morty-api-php/run-tests.yml)](https://packagist.org/packages/nickbeen/rick-and-morty-api-php)
 [![Total downloads](https://img.shields.io/packagist/dt/nickbeen/rick-and-morty-api-php)](https://packagist.org/packages/nickbeen/rick-and-morty-api-php)
 [![PHP Version](https://img.shields.io/packagist/php-v/nickbeen/rick-and-morty-api-php)](https://packagist.org/packages/nickbeen/rick-and-morty-api-php)
 [![License](https://img.shields.io/packagist/l/nickbeen/rick-and-morty-api-php)](https://packagist.org/packages/nickbeen/rick-and-morty-api-php)
