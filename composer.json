@@ -31,8 +31,10 @@
 		}
 	},
 	"autoload-dev": {
-		"NickBeen\\RickAndMortyPhpApi\\Tests\\": "tests"
-	},
+        "psr-4": {
+            "NickBeen\\RickAndMortyPhpApi\\Tests\\": "tests"
+        }
+    },
 	"scripts": {
 		"test": "vendor/bin/phpunit"
 	},
