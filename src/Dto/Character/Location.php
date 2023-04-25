@@ -5,8 +5,8 @@ namespace NickBeen\RickAndMortyPhpApi\Dto\Character;
 class Location
 {
 	/** Name to the character's last known location */
-	public string $name;
+	public readonly string $name;
 
 	/** Url to the character's last known location endpoint */
-	public string $url;
+	public readonly string $url;
 }
