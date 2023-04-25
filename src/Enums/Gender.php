@@ -2,18 +2,10 @@
 
 namespace NickBeen\RickAndMortyPhpApi\Enums;
 
-use MyCLabs\Enum\Enum;
-
-/**
- * @method static Gender FEMALE()
- * @method static Gender GENDERLESS()
- * @method static Gender MALE()
- * @method static Gender UNKNOWN()
- */
-final class Gender extends Enum
+enum Gender: string
 {
-	private const FEMALE = 'Female';
-	private const GENDERLESS = 'Genderless';
-	private const MALE = 'Male';
-	private const UNKNOWN = 'unknown';
+    case Female = 'Female';
+    case Genderless = 'Genderless';
+    case Male = 'Male';
+    case Unknown = 'Unknown';
 }

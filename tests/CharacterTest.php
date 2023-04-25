@@ -93,7 +93,7 @@ class CharacterTest extends TestCase
 
 		$this->assertIsArray($characters);
 		$this->assertCount(2, $characters);
-		$this->assertEquals(Gender::MALE(), $characters[0]->gender);
+		$this->assertEquals(Gender::Male->value, $characters[0]->gender);
 	}
 
 	/**
@@ -104,7 +104,7 @@ class CharacterTest extends TestCase
 		try {
 			$aliveRicks = (new Character())
 				->withName('Rick')
-				->withStatus(Status::ALIVE())
+				->withStatus(Status::Alive)
 				->get();
 		} catch (NotFoundException) {
 			$aliveRicks = null;
