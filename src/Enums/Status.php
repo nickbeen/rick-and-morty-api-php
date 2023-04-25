@@ -2,16 +2,9 @@
 
 namespace NickBeen\RickAndMortyPhpApi\Enums;
 
-use MyCLabs\Enum\Enum;
-
-/**
- * @method static Status ALIVE()
- * @method static Status DEAD()
- * @method static Status UNKNOWN()
- */
-final class Status extends Enum
+enum Status: string
 {
-	private const ALIVE = 'Alive';
-	private const DEAD = 'Dead';
-	private const UNKNOWN = 'unknown';
+    case Alive = 'Alive';
+    case Dead = 'Dead';
+    case Unknown = 'Unknown';
 }

@@ -16,14 +16,13 @@
 		}
 	],
 	"require": {
-		"php": "^8.0",
+		"php": "^8.1",
 		"ext-json": "*",
 		"guzzlehttp/guzzle": "^7.4",
-		"myclabs/php-enum": "^1.8",
-		"netresearch/jsonmapper": "^v4.0"
+		"netresearch/jsonmapper": "^4.0"
 	},
 	"require-dev": {
-		"phpunit/phpunit": "^9.5"
+		"phpunit/phpunit": "^10.1"
 	},
 	"autoload": {
 		"psr-4": {

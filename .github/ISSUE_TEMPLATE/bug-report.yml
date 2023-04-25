@@ -14,7 +14,7 @@ body:
     attributes:
       label: Library version
       description: "What version of the library do you have installed?"
-      placeholder: "1.0.0"
+      placeholder: "2.0.0"
     validations:
       required: true
   - type: input
@@ -22,7 +22,7 @@ body:
     attributes:
       label: PHP version
       description: "What version of PHP do you have installed?"
-      placeholder: "8.0.0"
+      placeholder: "8.1.0"
     validations:
       required: true
   - type: textarea

@@ -10,7 +10,7 @@ class Character extends Base implements CharacterContract
 {
 	public function withGender(Gender $gender): Character
 	{
-		$this->filter['gender'] = strtolower($gender->getValue());
+		$this->filter['gender'] = strtolower($gender->value);
 		return $this;
 	}
 
@@ -28,7 +28,7 @@ class Character extends Base implements CharacterContract
 
 	public function withStatus(Status $status): Character
 	{
-		$this->filter['status'] = strtolower($status->getValue());
+		$this->filter['status'] = strtolower($status->value);
 		return $this;
 	}
 

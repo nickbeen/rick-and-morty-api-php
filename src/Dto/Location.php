@@ -5,23 +5,23 @@ namespace NickBeen\RickAndMortyPhpApi\Dto;
 class Location
 {
 	/** The id of the location */
-	public int $id;
+	public readonly int $id;
 
 	/** The name of the location */
-	public string $name;
+	public readonly string $name;
 
 	/** The type of the location */
-	public string $type;
+	public readonly string $type;
 
 	/** The dimension in which the location is located */
-	public string $dimension;
+	public readonly string $dimension;
 
 	/** @var string[] List of characters who have been last seen in the location */
-	public array $residents;
+	public readonly array $residents;
 
 	/** Link to the location's own endpoint */
-	public string $url;
+	public readonly string $url;
 
 	/** Time at which the location was created in the database */
-	public string $created;
+	public readonly string $created;
 }
