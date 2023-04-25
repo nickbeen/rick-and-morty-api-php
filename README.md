@@ -1,4 +1,4 @@
-# The Rick and Morty API PHP Client
+# The Rick and Morty API - PHP Client
 
 [![Latest version](https://img.shields.io/packagist/v/nickbeen/rick-and-morty-api-php)](https://packagist.org/packages/nickbeen/rick-and-morty-api-php)
 [![Build status](https://img.shields.io/github/actions/workflow/status/nickbeen/rick-and-morty-api-php/run-tests.yml)](https://packagist.org/packages/nickbeen/rick-and-morty-api-php)
@@ -12,15 +12,14 @@ Get all the information about characters, episodes and locations of Rick and Mor
 
 ## Requirements
 
-* PHP >= 8.0
-* JSON extension (enabled by default since PHP 8.0)
+* PHP >= 8.1
 
 ## Installation
 
 Install the library into your project with Composer.
 
 ```
-composer require nickbeen/rick-and-morty-php-api
+composer require nickbeen/rick-and-morty-php-api --no-dev
 ```
 
 ## Usage
@@ -176,26 +175,26 @@ It is possible to search for characters based on search parameters such as speci
 
 | Field | Type | Description |
 | ----- | ---- | ----------- |
-| Gender::FEMALE() | string | Female |
-| Gender::GENDERLESS() | string | Genderless |
-| Gender::MALE() | string | Male |
-| Gender::UNKNOWN() | string | Unknown |
+| Gender::Female | string | Female |
+| Gender::Genderless | string | Genderless |
+| Gender::Male | string | Male |
+| Gender::Unknown | string | Unknown |
 
 #### Status object
 
 | Field | Type | Description |
 | ----- | ---- | ----------- |
-| Status::ALIVE() | string | Alive |
-| Status::DEAD() | string | Dead |
-| Status::UNKNOWN() | string | Unknown |
+| Status::Alive | string | Alive |
+| Status::Dead | string | Dead |
+| Status::Unknown | string | Unknown |
 
 Retrieve a `Collection` with all alive male Ricks.
 
 ```php
 $characters = new Character();
-$characters->withGender(Gender::MALE())
+$characters->withGender(Gender::Male)
     ->withName('Rick')
-    ->withStatus(Status::ALIVE())
+    ->withStatus(Status::Alive)
     ->get();
 
 foreach ($characters->results as $character) {
